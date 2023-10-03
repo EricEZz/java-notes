@@ -14,9 +14,10 @@ test("balls")
 //booLeans true of false
 test(false) */
 
-function add (x,y){
-    console.log(x+y);
+function add (x, y) {
+    console.log(x + y);
 }
-add(101,32);
-
-
+//declare and define variable
+const num1 = Number (prompt ("enter a number"));
+const num2 = Number (prompt ("enter a number"));
+add(num1,num2);
