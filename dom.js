@@ -9,3 +9,12 @@ const DOMSelectors = {
 // select all the h2s in one property
 };
 //console.log(DOMSelectors.h2s);
+DOMSelectors.form.addEventListener("submit",function(event){
+   event.preventDefault();
+   console.log(DOMSelectors.firstName.value);
+   userobject
+   cardobject 
+   DOMSelectors.h2s.forEach(
+    (el)=> (el.textContent = DOMSelectors.firstName.value)
+   );
+});
