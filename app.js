@@ -92,3 +92,11 @@ const nums = [1, 2, 3, 4, 5];
 //foreach to run function on every item (for loop)
 nums.forEach((el)=> console.log(el,index));
 //arrow functions ()=> are simpler, auto return its output, this keyword changes
+
+function remove(){
+    let btns = document.querySelector("button");
+    btns.forEach((button)=> button.addeventlistener('click', function(event){
+    }));
+}
+remove();
+//console.log(event.target.parentelement);
