@@ -37,7 +37,7 @@ function fibonacci(num,a,b){
         const next = previous + current;
         previous = current; 
         current=next;
-        console.log current;
+        console.log (current);
     }
 return current;
 
