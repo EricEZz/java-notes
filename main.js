@@ -13,6 +13,7 @@ mandy.then((result)=> {
 });
  */
 const URL = `http://api.quotable.io/random`;
+
 async function getData(URL){
     try{
         //requesting a response REST API's
